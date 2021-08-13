@@ -21,3 +21,4 @@ function isTriangle(){
 }
 
 isTriangleBtn.addEventListener("click",isTriangle)
+
