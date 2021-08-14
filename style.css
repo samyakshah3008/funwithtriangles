@@ -1,0 +1,86 @@
+/*html { 
+    background: url(/) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+:root{
+    --off-white: #D1D5DB;
+    --nav-bar: #7C3AED;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--off-white);
+}
+
+.nav{
+    background-color: var(--nav-bar);
+    padding: 2rem 0.5rem;
+    font-size: x-large;
+    color: var(--off-white);
+    font-weight: bolder;
+    margin: auto;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+/*font-family: 'Inconsolata', monospace; */
+
+.info{
+    color: var(--nav-bar);
+    margin-bottom: 5rem;
+    text-align: center;
+    font-size: x-large;
+    margin: 100px;
+}
+
+.pills{
+    text-decoration: none;
+    color: var(--nav-bar);
+    font-size: x-large;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-radius: 2rem;
+    border: solid var(--nav-bar);
+    margin-left: 100px;    
+}
+
+.pills:hover{
+    background-color: var(--nav-bar);
+    color: var(--off-white);
+}
+
+h1{
+    color: var(--nav-bar);
+    font-weight: bolder;
+    
+    text-align: center;
+}
+
+.footer{
+    background-color: var(--nav-bar);
+    color: var(--off-white);
+    padding: 2rem;
+    margin-top: 8rem;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.footer-pills{
+    font-size: x-large;
+    color: var(--off-white);
+    text-decoration: none;
+    padding: 2rem;
+    
+    
+}
+
