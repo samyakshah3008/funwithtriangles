@@ -23,12 +23,13 @@ body{
 .nav{
     background-color: var(--nav-bar);
     padding: 2rem 0.5rem;
-    font-size: x-large;
+    font-size: xx-large;
     color: var(--off-white);
     font-weight: bolder;
     margin: auto;
     text-align: center;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 2rem;
 }
 /*font-family: 'Inconsolata', monospace; */
 
@@ -38,6 +39,7 @@ body{
     text-align: center;
     font-size: x-large;
     margin: 100px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .pills{
@@ -49,12 +51,14 @@ body{
     border-bottom-right-radius: 1.5rem;
     border-radius: 2rem;
     border: solid var(--nav-bar);
-    margin-left: 100px;    
+    margin-left: 100px; 
+    font-family: 'Inconsolata', monospace;   
 }
 
 .pills:hover{
     background-color: var(--nav-bar);
     color: var(--off-white);
+    font-family: 'Inconsolata', monospace;
 }
 
 h1{
@@ -62,6 +66,7 @@ h1{
     font-weight: bolder;
     
     text-align: center;
+    font-family: 'Inconsolata', monospace;
 }
 
 .footer{
@@ -84,3 +89,65 @@ h1{
     
 }
 
+.back-button{
+    color: var(--nav-bar);
+    text-align: center;
+    font-size: x-large;
+    margin-top: 2rem;
+    
+    padding-left: 45rem;
+    font-weight: bolder;
+
+    
+    
+}
+
+.label{
+    font-size: x-large;
+    color: var(--nav-bar);
+    font-family: 'Inconsolata', monospace;
+    margin: 1rem;
+}
+
+.button{
+    padding: 0.5rem;
+    color: var(--nav-bar);
+    background-color: var(--off-white);
+    border: solid var(--nav-bar);
+    border-bottom-right-radius: 1rem;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 2rem;
+}
+
+.button:hover{
+    padding: 0.5rem;
+    color: var(--off-white);
+    background-color: var(--nav-bar);
+    border: solid white;
+    border-bottom-right-radius:  1rem;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 2rem;
+}
+
+.btn{
+    margin: 0.5rem;
+    margin-bottom: 2rem;
+
+}
+
+.output{
+    color: var(--nav-bar);
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 1rem;
+    font-family: 'Inconsolata', monospace;
+}
+
+.side-input{
+    
+    font-size: large;
+}
