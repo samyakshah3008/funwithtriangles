@@ -2,7 +2,7 @@ const quizForm = document.querySelector('.quiz-form')
 const submitAnswerBtn = document.querySelector('#submit')
 const output = document.querySelector('#output')
 
-const correctAnswers = ["90°","right angled"];
+const correctAnswers = ["90°","right angled","yes","yes","5cm"];
 
 function calculateScore() {
     let score = 0;
@@ -19,7 +19,7 @@ function calculateScore() {
         index = index + 1
     }
     console.log(score)
-    output.innerText = "Your score is: " + score
+    output.innerText = "Your score is: "  + score + "/5"
 }
 
 submitAnswerBtn.addEventListener('click',calculateScore);

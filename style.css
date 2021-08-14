@@ -34,8 +34,8 @@ body{
 /*font-family: 'Inconsolata', monospace; */
 
 .info{
-    color: var(--nav-bar);
-    margin-bottom: 5rem;
+    color: black;
+    margin-bottom: 2rem;
     text-align: center;
     font-size: x-large;
     margin: 100px;
@@ -44,7 +44,7 @@ body{
 
 .pills{
     text-decoration: none;
-    color: var(--nav-bar);
+    color: black;
     font-size: x-large;
     padding: 1rem;
     border-bottom-left-radius: 1.5rem;
@@ -62,7 +62,7 @@ body{
 }
 
 h1{
-    color: var(--nav-bar);
+    color: black;
     font-weight: bolder;
     
     text-align: center;
@@ -104,14 +104,14 @@ h1{
 
 .label{
     font-size: x-large;
-    color: var(--nav-bar);
+    color: black;
     font-family: 'Inconsolata', monospace;
     margin: 1rem;
 }
 
 .button{
     padding: 0.5rem;
-    color: var(--nav-bar);
+    color: black;
     background-color: var(--off-white);
     border: solid var(--nav-bar);
     border-bottom-right-radius: 1rem;
@@ -150,4 +150,39 @@ h1{
 .side-input{
     
     font-size: large;
+}
+
+.question{
+    font-size: x-large;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    margin: 1rem;
+}
+
+.pill{
+
+    text-decoration: none;
+    margin-top: 2rem;
+    color: black;
+    font-size: large;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-radius: 2rem;
+    border: solid var(--nav-bar);
+    margin-left: 100px; 
+    font-family: 'Inconsolata', monospace; 
+    margin-top: 2rem;
+
+}
+
+.eg{
+    margin-top: 5rem;
+}
+
+.pill:hover{
+    background-color: var(--nav-bar);
+    color: var(--off-white);
+    font-family: 'Inconsolata', monospace;
+
 }
