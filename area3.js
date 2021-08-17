@@ -12,7 +12,7 @@ function processing(A,b,c){
 function calculateArea(){
     
     const res = processing(Number(inputs[0].value),Number(inputs[1].value),Number(inputs[2].value))
-    output.innerText = "Final Answer is: " + res
+    output.innerText = "Area is: " + res
 
 }
 

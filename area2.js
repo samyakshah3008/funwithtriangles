@@ -20,7 +20,7 @@ function calculateArea(){
    output.innerText = "Invalid Input"
 
    }else{
-   output.innerText = "The length of hypotenuse is: " + Math.sqrt(res)
+   output.innerText = "Area is: " + Math.sqrt(res)
    }
    
 }
