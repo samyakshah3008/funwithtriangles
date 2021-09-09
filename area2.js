@@ -16,11 +16,14 @@ function processing(a,b,c){
 
 function calculateArea(){
    const res = processing(Number(inputs[0].value),Number(inputs[1].value),Number(inputs[2].value))
+  console.log("clicked")
    if(res === -1){
-   output.innerText = "Invalid Input"
-
-   }else{
-   output.innerText = "Area is: " + Math.sqrt(res)
+   output.innerText = "Make sure that sides should be like this: (a+b)>c && (b+c)>a && (a+c)>b) and also values cannot be negative "
+ 
+   } 
+   
+   else{
+   output.innerText = "Area according to heron's formula is: " + Math.sqrt(res)
    }
    
 }
